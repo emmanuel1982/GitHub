@@ -1,0 +1,14 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    width: clamp(500px, 90%, 1000px);
+    }
+
+body #output{
+    display: flex;
+    flex: 50%;
+    padding: 10px;
+}
+
+td[id*="col2row"] {
+    padding-left: 10px;
+}
